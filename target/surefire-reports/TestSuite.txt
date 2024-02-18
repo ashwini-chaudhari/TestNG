@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.613 s <<< FAILURE! - in TestSuite
+goToTheLink(intro.Test2)  Time elapsed: 0.016 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by @Test on method goToTheLink but has not been marked @Optional or defined
+
+
+login(intro.Test2)  Time elapsed: 0.022 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [false] but found [true]
+	at intro.Test2.login(Test2.java:19)
+
